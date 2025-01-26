@@ -1,0 +1,77 @@
+/* Default Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #F0F0F0;
+}
+
+/* Cover Page Styles */
+#coverPage {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#startBtn {
+  background-color: #D4AF37; /* Harrods Gold */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+#startBtn:hover {
+  background-color: #B88600; /* Darker Gold on hover */
+}
+
+/* Home Page Styles */
+#homePage {
+  display: none;
+  margin-top: 50px;
+}
+
+.phaseButton {
+  background-color: #8D8D8D; /* Gray */
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.phaseButton:hover {
+  background-color: #6F6F6F; /* Darker Gray on hover */
+}
+
+.phaseButton.unlocked {
+  background-color: #D4AF37; /* Harrods Gold */
+}
+
+.phaseButton.locked {
+  background-color: #8D8D8D; /* Gray */
+  cursor: not-allowed;
+}
+
+#nextBtn, #returnBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #D4AF37; /* Harrods Gold */
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#nextBtn:disabled, #returnBtn:disabled {
+  background-color: #BDBDBD; /* Disabled button style */
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
